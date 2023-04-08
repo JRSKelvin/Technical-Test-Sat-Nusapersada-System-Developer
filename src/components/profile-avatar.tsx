@@ -11,7 +11,6 @@ const ProfileAvatarComponent = () => {
             alt="avatar"
             className="rounded-circle"
             style={{ width: "150px", height: "150px", objectFit: "cover" }}
-            fluid="true"
           />
           <Card.Title>Front End Developer</Card.Title>
           <Card.Text>Indonesia</Card.Text>
