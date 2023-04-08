@@ -7,7 +7,7 @@ const ProfileSocialComponent = () => {
     <React.Fragment>
       <Card className="mb-4">
         <Card.Body className="p-0">
-          <ListGroup flush="true" className="rounded-3">
+          <ListGroup variant="flush" className="rounded-3">
             <ListGroup.Item className="d-flex justify-content-between align-items-center p-3">
               <FiMail />
               <Card.Text>yeskelvin1@gmail.com</Card.Text>
