@@ -8,7 +8,7 @@ const ProfileDescriptionComponent = () => {
         <Card.Body>
           <Card.Text>Hello, my name is Kelvin.</Card.Text>
           <Card.Text>
-            I'm an active student who is currently a final year college student at UIB (Universitas
+            I{"'"}m an active student who is currently a final year college student at UIB (Universitas
             Internasional Batam), majoring in Information Systems Computer Science. I am highly
             interested in Technology, Programming, and Software Engineering. Previously, I have
             developed several Websites using HTML, CSS, Javascript, and PHP, Simple Games using C#,
