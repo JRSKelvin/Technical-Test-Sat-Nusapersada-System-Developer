@@ -104,6 +104,27 @@ const TechnicalQuestionComponent = () => {
               <code>{technicalCode.blockCodeOneQuestionFourPartB}</code>
             </pre>
           </Container>
+
+          <hr />
+          <Card.Text style={{ fontWeight: "bold" }}>Extra Source Code</Card.Text>
+          <Card.Text>1. All SQL query.</Card.Text>
+          <Container className="bg-light border rounded-3 p-3 mb-4">
+            <pre>
+              <code>{technicalCode.blockCodeOneExtraCodeFirst}</code>
+            </pre>
+          </Container>
+          <Card.Text>2. Check for palindrome with allow one wrong letter.</Card.Text>
+          <Container className="bg-light border rounded-3 p-3 mb-4">
+            <pre>
+              <code>{technicalCode.blockCodeOneExtraCodeTwo}</code>
+            </pre>
+          </Container>
+          <Card.Text>3. GoFood with recommended inherit class.</Card.Text>
+          <Container className="bg-light border rounded-3 p-3 mb-4">
+            <pre>
+              <code>{technicalCode.blockCodeOneExtraCodeThree}</code>
+            </pre>
+          </Container>
         </Card.Body>
       </Card>
     </React.Fragment>
