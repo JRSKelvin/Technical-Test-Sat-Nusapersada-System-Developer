@@ -12,6 +12,9 @@ const TechnicalQuestionComponent = () => {
           <Alert variant="danger">
             The information on this question is incomplete and lacks data or samples to attempt the query. So this question cannot be answered completely and appropriately.
           </Alert>
+          <Alert variant="success">
+            My analysis and answer to this question can be found in Extra Source Code.
+          </Alert>
           <Card.Text>A. Provide a query to check how many total PO and CER from existing PR.</Card.Text>
           <Container className="bg-light border rounded-3 p-3 mb-4">
             <pre>
